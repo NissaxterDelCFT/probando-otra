@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFT Estatal - Registro de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header class="header1">
+            <img class="imagen" src="assets/1666938998581.png" alt="">
+                <nav class="redireccion">
+                <li class="redireccion_"><a href="https://cftestatalaricayparinacota.cl" class="as">INICIO</a></li>
+                <li class="redireccion_"><a href="https://cftestatalaricayparinacota.cl/formacion-continua/" class="as">FORMACIÓN CONTINUA</a></li>
+                <li class="redireccion_"><a href="https://cftestatalaricayparinacota.cl/titulados/" class="as">HIGIENE Y SEGURIDAD</a></li>
+                <li class="redireccion_"><a href="https://cftestatalaricayparinacota.cl/higiene-y-seguridad/" class="as">DOCUMENTOS OFICIALES</a></li>
+                <li class="redireccion_"><a href="https://intranet.cftestatalaricayparinacota.cl" class="as">INTRANET</a></li>
+                <li class="cta"><p><input type="text" class="inputs"><button class="boton">Buscar</button></p></li>
+                </nav>
+            </ul>
+        </div>
+    </header>
+   <section id="tabla_formulario">   
+    <table class="tabla_contenido">
+        <tr>
+            <th colspan="2"><h1>INGRESE NOTAS</h1></th>
+        </tr>
+        <tr>
+            <td>Nombre: </td>
+            <td><input type="text"  name="nombre" class="inputs"><br>
+            <label for="" id="r_nombre"></label></td>
+        </tr>
+        <tr>
+        <td>Asignatura: </td>
+            <td><select name="asignatura" id="" class="inputs" style="font-size:14.2px;">
+                <option value="nada">Seleccione una carrera</option>
+                <option value="Tecnologías Web">Tecnologías Web</option>
+            </select><br>
+            <label for="" id="r_asignatura"></label></td>
+        </tr>
+        <tr>
+            <th colspan="2"><h2>Unidad 1</h2></th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ths">Características de un sitio Web</th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ths">Porcentaje (33%)</th>
+        </tr>
+            <td>Nota 1 (12%):</td>
+            <td><input type="text" name="u1nota1" class="inputs"><br>
+            <label for="" id="u1r_nota1"></label></td>
+        </tr>
+        <tr>
+            <td>Nota 2 (21%): </td>
+            <td><input type="text" name="u1nota2" class="inputs"><br>
+            <label for="" id="u1r_nota2"></label></td>
+        </tr>
+        <tr>
+            <th colspan="2"><h2>Unidad 2</h2></th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ths">Programación básica de un aplicación Web</th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ths">Porcentaje (33%)</th>
+        </tr>
+        <tr>
+            <td>Nota 1 (12%):</td>
+            <td><input type="text" name="u2nota1" class="inputs"><br>
+            <label for="" id="u2r_nota1"></label></td>
+        </tr>
+        <tr>
+            <td>Nota 2 (21%): </td>
+            <td><input type="text" name="u2nota2" class="inputs"><br>
+            <label for="" id="u2r_nota2"></label></td>
+        </tr>
+        <tr>
+            <th colspan="2"><h2>Unidad 3</h2></th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ths">Programación Avanzada de una aplicación Web</th>
+        </tr>
+        <tr>
+            <th colspan="2" class="ths">Porcentaje (34%)</th>
+        </tr>
+        <tr>
+            <td>Nota 1 (13%):</td>
+            <td><input type="text" name="u3nota1" class="inputs"><br>
+            <label for="" id="u3r_nota1"></label></td>
+        </tr>
+        <tr>
+            <td>Nota 2 (21%): </td>
+            <td><input type="text" name="u3nota2" class="inputs"><br>
+            <label for="" id="u3r_nota2"></label></td>
+        </tr>
+        <tr>
+            <th colspan="2"><input type="submit" class="inputs2" value="Enviar" onclick="datos()"></th>
+        </tr>
+        <tr>
+            <th colspan="2"><label for="" id="resultado"></label></th>
+        </tr>
+    </table>
+    </section> 
+    <script link="style.css" src="script.js"></script>
+</body>
+</html>
